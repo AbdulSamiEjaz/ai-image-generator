@@ -9,6 +9,8 @@ const app = express()
 
 // Enable Body Parser
 app.use(express.json())
+
+// New Comment
 app.use(express.urlencoded({ extended: false }))
 
 // Set Static Folder
